@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/github/AutoTest/Chapter5/xml">
+        <classes>
+                <class name = "com.test.testng.BasicAnnotation"/>
+        </classes>
+    </test>
+    <test name="测试方法">
+        <packages>
+            <!--<package name="testcase.credit.scf.*"></package>-->
+            <!--<package name="testcase.credit.http.*"></package>-->
+            <package name="com.test.testng"></package>
+            <!--后面可以继续添加package-->
+        </packages>
+    </test>
+</suite>

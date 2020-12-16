@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suit name="test">
+    <test name="登录验证">
+        <classes>
+            <class name="com.test.testng.suit.SuitConfig"/>
+            <class name="com.test.testng.suit.LoginTest"/>
+        </classes>
+    </test>
+    <test name="支付验证">
+        <classes>
+            <class name="com.test.testng.suit.SuitConfig"/>
+            <class name="com.test.testng.suit.PayTest"/>
+        </classes>
+    </test>
+</suit>
